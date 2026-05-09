@@ -1,1 +1,96 @@
-# microsoft-intune-lab
+# MDM Home Lab — Microsoft Intune
+> **Self-directed** · Microsoft Intune · Microsoft 365 Developer Tenant
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+## Why
+To build practical Mobile Device Management skills using Microsoft Intune — covering device enrolment, compliance policies, configuration profiles, app deployment, and Conditional Access — as a hands-on portfolio piece demonstrating 1st and 2nd line endpoint management experience.
+
+---
+
+## Requirements
+
+| | Minimum | Recommended |
+|---|---|---|
+| **OS** | Windows 10 | Windows 10/11 |
+| **RAM** | 8 GB | 16 GB |
+| **Storage** | 60 GB free | 100 GB+ free |
+| **CPU** | Dual-core, 64-bit | Quad-core, 64-bit |
+| **Virtualisation** | VirtualBox | VirtualBox / VMware Workstation |
+| **Internet** | Required — Intune is cloud-only | Stable broadband |
+| **Account** | Microsoft 365 Developer Tenant (free) | — |
+
+> Sign up for a free M365 E5 developer tenant (includes Intune) at [developer.microsoft.com/microsoft-365/dev-program](https://developer.microsoft.com/microsoft-365/dev-program). Tenants are free and renewable every 90 days.
+
+---
+
+## Lab Environment
+
+The lab uses a mix of virtual machines and a physical device, all enrolled into a shared Microsoft Intune tenant.
+
+| Device | Role | OS | RAM | Disk | Type |
+|---|---|---|---|---|---|
+| `WIN-VM-01` | Managed Endpoint | Windows 11 Pro | 2 GB | 60 GB | VirtualBox VM |
+| `WIN-VM-02` | Non-compliant Test Device | Windows 10 Pro | 2 GB | 40 GB | VirtualBox VM |
+| `LAPTOP-01` | Physical Test Device | Windows 10/11 | — | — | Physical machine |
+
+**Tooling**
+
+| Tool | Version / Source |
+|---|---|
+| VirtualBox | 7.x |
+| Windows 11 Pro | ISO — [Microsoft Media Creation Tool](https://www.microsoft.com/en-gb/software-download/windows11) |
+| Windows 10 Pro | ISO — [Microsoft Media Creation Tool](https://www.microsoft.com/en-gb/software-download/windows10) |
+| Microsoft Intune | Included with M365 E5 developer tenant |
+| Win32 Content Prep Tool | [github.com/microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) |
+
+> Verify ISO integrity against Microsoft's published SHA-256 checksums before use.
+
+---
+
+## Automation
+
+Where feasible, lab tasks are automated via PowerShell scripts. Any section with automatable steps will include a `scripts/` subdirectory containing the relevant scripts and a short explanation of what each one does.
+
+---
+
+## Repository Structure
+
+Each topic area has its own directory for notes, exported policy configs, runbooks, and screenshots.
+
+```
+.
+├── 01-tenant-setup/
+├── 02-device-enrolment/
+├── 03-compliance-policies/
+├── 04-configuration-profiles/
+├── 05-app-deployment/
+├── 06-conditional-access/
+├── 07-device-actions/
+├── 08-autopilot/
+├── 09-powershell-scripts/
+├── 10-runbooks/
+├── LICENSE
+└── README.md
+```
+
+---
+
+## Progress
+
+- [ ] 01 · Tenant Setup
+- [ ] 02 · Device Enrolment
+- [ ] 03 · Compliance Policies
+- [ ] 04 · Configuration Profiles
+- [ ] 05 · App Deployment (Win32)
+- [ ] 06 · Conditional Access
+- [ ] 07 · Device Actions (Wipe, Retire, Sync)
+- [ ] 08 · Autopilot
+- [ ] 09 · PowerShell Script Deployment
+- [ ] 10 · Runbooks
+
+---
+
+## Licence
+
+This repository is licensed under the [MIT License](./LICENSE). You are free to use, adapt, and share the scripts and notes within it.
