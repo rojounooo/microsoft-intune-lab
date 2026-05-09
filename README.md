@@ -1,4 +1,4 @@
-# MDM Home Lab — Microsoft Intune
+# Microsoft Intune
 > **Self-directed** · Microsoft Intune · Microsoft 365 Developer Tenant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
