@@ -32,7 +32,7 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 |---|---|---|---|---|---|
 | `WIN-VM-01` | Managed Endpoint | Windows 11 Pro | 2 GB | 60 GB | VirtualBox VM |
 | `WIN-VM-02` | Non-compliant Test Device | Windows 10 Pro | 2 GB | 40 GB | VirtualBox VM |
-| `LAPTOP-01` | Physical Test Device | Windows 10/11 | — | — | Physical machine |
+| `LAPTOP-01` | Physical Test Device | Windows 11 | — | — | Physical machine |
 
 **Tooling**
 
