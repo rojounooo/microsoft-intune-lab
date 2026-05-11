@@ -22,7 +22,7 @@ Throughout each section you will find `> **Note:**` and `> **Gotcha:**` callouts
 | **RAM** | 8 GB | 16 GB |
 | **Storage** | 60 GB free | 100 GB+ free |
 | **CPU** | Dual-core, 64-bit | Quad-core, 64-bit |
-| **Virtualisation** | VirtualBox | VirtualBox / VMware Workstation |
+| **Virtualisation** | VirtualBox | VirtualBox |
 | **Internet** | Required — Intune is cloud-only | Stable broadband |
 | **Account** | Microsoft 365 Developer Tenant (free) | — |
 
@@ -66,7 +66,7 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 ```
 .
 ├── 01-tenant-setup/
-├── 02-device-enrolment/
+├── 02-device-enrollment/
 ├── 03-compliance-policies/
 ├── 04-configuration-profiles/
 ├── 05-app-deployment/
@@ -84,7 +84,7 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 ## Progress
 
 - [x] 01 · Tenant Setup
-- [ ] 02 · Device Enrolment
+- [ ] 02 · Device Enrollment
 - [ ] 03 · Compliance Policies
 - [ ] 04 · Configuration Profiles
 - [ ] 05 · App Deployment (Win32)
