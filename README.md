@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ## Why
-To build practical Mobile Device Management skills using Microsoft Intune — covering device enrolment, compliance policies, configuration profiles, app deployment, and Conditional Access — as a hands-on portfolio piece demonstrating 1st and 2nd line endpoint management experience.
+To build practical Mobile Device Management skills using Microsoft Intune. Covering device enrollment, compliance policies, configuration profiles, app deployment, and Conditional Access to demonstrate 1st and 2nd line endpoint management experience.
 
 ---
 
