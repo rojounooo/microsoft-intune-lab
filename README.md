@@ -83,7 +83,7 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 
 ## Progress
 
-- [ ] 01 · Tenant Setup
+- [x] 01 · Tenant Setup
 - [ ] 02 · Device Enrolment
 - [ ] 03 · Compliance Policies
 - [ ] 04 · Configuration Profiles
