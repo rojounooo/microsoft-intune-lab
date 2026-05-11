@@ -8,6 +8,12 @@ To build practical Mobile Device Management skills using Microsoft Intune — co
 
 ---
 
+## Notes and Gotchas
+
+Throughout each section you will find `> **Note:**` and `> **Gotcha:**` callouts. These are not copied from documentation — they are things I ran into during the lab and documented as I went. They reflect real troubleshooting experience rather than a clean walkthrough.
+
+---
+
 ## Requirements
 
 | | Minimum | Recommended |
@@ -39,7 +45,6 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 | Tool | Version / Source |
 |---|---|
 | VirtualBox | 7.x |
-| Windows 11 Pro | ISO — [Microsoft Media Creation Tool](https://www.microsoft.com/en-gb/software-download/windows11) |
 | Windows 11 Pro | ISO — [Microsoft Media Creation Tool](https://www.microsoft.com/en-gb/software-download/windows11) |
 | Microsoft Intune | Included with M365 E5 developer tenant |
 | Win32 Content Prep Tool | [github.com/microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) |
