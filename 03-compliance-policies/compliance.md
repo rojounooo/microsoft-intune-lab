@@ -151,6 +151,10 @@ To see what a non-compliant device looks like in the Intune dashboard, the firew
 To restore compliance, re-enable the firewall on WIN-VM-02 and sync again.
 
 ---
+## Screenshots
+Screenshots of the compliance policy, WIN-VM-02 being non-compliant, and WIN-VM-02 being compliant again can be found in the `03-compliance-policies/screenshots/` directory.
+
+---
 
 ## Verification Checklist
 
