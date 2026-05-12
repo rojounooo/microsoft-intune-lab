@@ -152,7 +152,7 @@ To restore compliance, re-enable the firewall on WIN-VM-02 and sync again.
 
 ---
 ## Screenshots
-Screenshots of the compliance policy, WIN-VM-02 being non-compliant, and WIN-VM-02 being compliant again can be found in the `03-compliance-policies/screenshots/` directory.
+Screenshots of the compliance policy, compliant devices, and non-compliant devices can be found in the `03-compliance-policies/screenshots/` directory.
 
 ---
 
@@ -161,7 +161,7 @@ Screenshots of the compliance policy, WIN-VM-02 being non-compliant, and WIN-VM-
 - [ ] Security group created in Entra ID containing client01 and client02
 - [ ] Compliance policy created and assigned to Intune Lab Devices group
 - [ ] All enrolled devices show as **Compliant** in Intune
-- [ ] WIN-VM-02 successfully simulated as **Non-compliant** and restored
+- [ ] WIN-VM-02 successfully simulated as **Non-compliant** 
 
 ---
 
