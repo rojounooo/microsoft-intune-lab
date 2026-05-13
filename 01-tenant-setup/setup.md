@@ -8,7 +8,7 @@
 
 **Entra ID** is Microsoft's cloud-based identity service. It handles users, groups, and device identities — the cloud equivalent of on-premises Active Directory.
 
-**Microsoft Intune** is Microsoft's cloud MDM (Mobile Device Management) platform. It sits on top of Entra ID and uses its identities to manage devices — the cloud equivalent of Group Policy. 
+**Microsoft Intune** is Microsoft's cloud MDM (Mobile Device Management) platform. It sits on top of Entra ID and uses its identities to manage devices — the cloud equivalent of Group Policy.
 
 ### 2. What is a licence and how do you assign one?
 

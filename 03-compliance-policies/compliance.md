@@ -36,9 +36,9 @@ Settings that verify the integrity of the device at a hardware and firmware leve
 | Setting | Value | Why |
 |---|---|---|
 | **BitLocker** | Require | Ensures the device's storage is encrypted. Without BitLocker, data on the drive is readable by anyone with physical access. |
-| **Secure Boot** | Require | Ensures the device only boots using trusted firmware. Prevents bootkits and low-level malware from loading before Windows. |
 | **Code Integrity** | Require | Verifies that drivers and system files have not been tampered with. |
 
+> **Gotcha — VMs and Secure Boot:** Secure Boot is not enabled by default on VirtualBox VMs. If applied to a VM, the device will show as non-compliant for Secure Boot even if Windows is running fine. Either enable Secure Boot on the VM before enrolment via `VBoxManage modifyvm "VM-NAME" --secure-boot on`, or remove Secure Boot from the compliance policy if you are only testing with VMs.
 #### System Security — Password
 
 Password requirements enforced on the device login screen.
