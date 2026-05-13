@@ -87,8 +87,8 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 - [x] 01 · Tenant Setup
 - [x] 02 · Device Enrollment
 - [x] 03 · Compliance Policies
-- [ ] 04 · Configuration Profiles
-- [ ] 05 · App Deployment (Win32)
+- [x] 04 · Configuration Profiles
+- [x] 05 · App Deployment (Win32)
 - [ ] 06 · Conditional Access
 - [ ] 07 · Device Actions (Wipe, Retire, Sync)
 - [ ] 08 · Autopilot
