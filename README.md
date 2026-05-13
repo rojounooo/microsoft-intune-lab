@@ -65,6 +65,7 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 
 ```
 .
+├── assets/
 ├── 01-tenant-setup/
 ├── 02-device-enrollment/
 ├── 03-compliance-policies/
