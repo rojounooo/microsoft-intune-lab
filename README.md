@@ -55,7 +55,7 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 
 ## Automation
 
-Where feasible, lab tasks are automated via PowerShell scripts. Any section with automatable steps will include a `scripts/` subdirectory containing the relevant scripts and a short explanation of what each one does.
+Where feasible, tasks are automated via PowerShell scripts.
 
 ---
 
@@ -71,11 +71,10 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 ├── 03-compliance-policies/
 ├── 04-configuration-profiles/
 ├── 05-app-deployment/
-├── 06-conditional-access/
-├── 07-device-actions/
-├── 08-autopilot/
-├── 09-powershell-scripts/
-├── 10-runbooks/
+├── 06-device-actions/
+├── 07-autopilot/
+├── 08-powershell/
+├── 09-runbooks/
 ├── LICENSE
 └── README.md
 ```
@@ -89,11 +88,10 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 - [x] 03 · Compliance Policies
 - [x] 04 · Configuration Profiles
 - [x] 05 · App Deployment (Win32)
-- [ ] 06 · Conditional Access
-- [ ] 07 · Device Actions (Wipe, Retire, Sync)
-- [ ] 08 · Autopilot
-- [ ] 09 · PowerShell Script Deployment
-- [ ] 10 · Runbooks
+- [ ] 06 · Device Actions (Wipe, Retire, Sync)
+- [ ] 07 · Autopilot
+- [ ] 08 · PowerShell
+- [ ] 09 · Runbooks
 
 ---
 
