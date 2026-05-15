@@ -36,9 +36,10 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 
 | Device | Role | OS | RAM | Disk | Type |
 |---|---|---|---|---|---|
-| `WIN-VM-01` | Managed Endpoint | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
-| `WIN-VM-02` | Non-compliant Test Device | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
-| `LAPTOP-01` | Physical Test Device | Windows 11 Pro | 16GB | 512GB | Physical machine |
+| `WC01` | Physical Test Device | Windows 11 Pro | 16GB | 512GB | Physical machine |
+| `Client02` | Managed Endpoint | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
+| `Clien03` | Non-compliant Test Device | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
+
 
 **Tooling**
 
