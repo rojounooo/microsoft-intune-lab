@@ -37,8 +37,8 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 | Device | Role | OS | RAM | Disk | Type |
 |---|---|---|---|---|---|
 | `WC01` | Physical Test Device | Windows 11 Pro | 16GB | 512GB | Physical machine |
-| `Client02` | Managed Endpoint | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
-| `Clien03` | Non-compliant Test Device | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
+| `Client01` | Managed Endpoint | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
+| `Client02` | Non-compliant Test Device | Windows 11 Pro | 4 GB | 80 GB | VirtualBox VM |
 
 
 **Tooling**
@@ -51,12 +51,6 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 | Win32 Content Prep Tool | [github.com/microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) |
 
 > Verify ISO integrity against Microsoft's published SHA-256 checksums before use.
-
----
-
-## Automation
-
-Where feasible, tasks are automated via PowerShell scripts.
 
 ---
 
@@ -74,8 +68,7 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 ├── 05-app-deployment/
 ├── 06-device-actions/
 ├── 07-autopilot/
-├── 08-powershell/
-├── 09-runbooks/
+├── 08-runbooks/
 ├── LICENSE
 └── README.md
 ```
@@ -89,9 +82,8 @@ Each topic area has its own directory for notes, exported policy configs, runboo
 - [x] 03 · Compliance Policies
 - [x] 04 · Configuration Profiles
 - [x] 05 · App Deployment (Win32)
-- [ ] 06 · Device Actions (Wipe, Retire, Sync)
-- [ ] 07 · Autopilot
-- [ ] 08 · PowerShell
+- [x] 06 · Device Actions (Wipe, Retire, Sync)
+- [x] 07 · Autopilot
 - [ ] 09 · Runbooks
 
 ---
