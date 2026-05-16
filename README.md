@@ -56,11 +56,10 @@ The lab uses a mix of virtual machines and a physical device, all enrolled into 
 
 ## Repository Structure
 
-Each topic area has its own directory for notes, exported policy configs, runbooks, and screenshots.
+Each topic area has its own directory with guides and notes on what I have learnt.
 
 ```
 .
-├── assets/
 ├── 01-tenant-setup/
 ├── 02-device-enrollment/
 ├── 03-compliance-policies/
